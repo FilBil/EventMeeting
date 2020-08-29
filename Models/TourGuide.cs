@@ -14,7 +14,7 @@ namespace EventMeeting.Models
         public String Name { get; set; }
         public String Surname { get; set; }
         public bool IsBusy { get; set; }
-        public decimal TourPrice { get; set; }
+        
         
     }
 }

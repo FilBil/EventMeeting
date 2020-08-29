@@ -13,7 +13,5 @@ namespace EventMeeting.Models
         public String UserEmail { get; set; }
         public String Name { get; set; }
         public String Surname { get; set; }
-        public bool IsBusy { get; set; }
-        public decimal DrivePrice { get; set; }
     }
 }
