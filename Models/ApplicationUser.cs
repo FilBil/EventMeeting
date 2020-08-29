@@ -15,6 +15,7 @@ namespace EventMeeting.Models
         public String Name { get; set; }
         public String Surname { get; set; }
         public int CardNum { get; set; }
+       
 
     }
 }
