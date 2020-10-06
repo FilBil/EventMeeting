@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fb2b52df-9975-4cca-948c-4b31aaef19be" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/ClientApp/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/browserslist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/e2e/protractor.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/e2e/src/app.e2e-spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/e2e/src/app.po.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/e2e/tsconfig.e2e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/api-authorization/api-authorization.constants.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/api-authorization/api-authorization.module.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/api-authorization/api-authorization.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/api-authorization/authorize.guard.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/api-authorization/authorize.guard.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/api-authorization/authorize.interceptor.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/api-authorization/authorize.interceptor.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/api-authorization/authorize.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/api-authorization/authorize.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/api-authorization/login-menu/login-menu.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/api-authorization/login-menu/login-menu.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/api-authorization/login-menu/login-menu.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/api-authorization/login-menu/login-menu.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/api-authorization/login/login.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/api-authorization/login/login.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/api-authorization/login/login.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/api-authorization/login/login.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/api-authorization/logout/logout.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/api-authorization/logout/logout.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/api-authorization/logout/logout.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/api-authorization/logout/logout.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/app.server.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/counter/counter.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/counter/counter.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/counter/counter.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/fetch-data/fetch-data.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/fetch-data/fetch-data.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/home/home.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/home/home.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/nav-menu/nav-menu.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/nav-menu/nav-menu.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/nav-menu/nav-menu.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/environments/environment.prod.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/environments/environment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/tsconfig.server.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/tslint.json" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1iVdYTRLo07h2gKLdTKxMKMtyIG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.buildTools.grunt.grunt-cli.package" value="" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="js.build_tools.grunt">
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fb2b52df-9975-4cca-948c-4b31aaef19be" name="Default Changelist" comment="" />
+      <created>1601996741246</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601996741246</updated>
+      <workItem from="1601996742436" duration="2657000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
