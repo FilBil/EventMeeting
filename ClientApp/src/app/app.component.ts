@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Event Meeting Project';
+  describe = 'Example describe here';
 }
