@@ -8,5 +8,14 @@ namespace EventMeeting.Models
 {
     public class ApplicationUser : IdentityUser
     {
+        public int ID { get; set; }
+        public String Login { get; set; }
+        public String Password { get; set; }
+        public String UserEmail { get; set; }
+        public String Name { get; set; }
+        public String Surname { get; set; }
+        public int CardNum { get; set; }
+       
+
     }
 }
