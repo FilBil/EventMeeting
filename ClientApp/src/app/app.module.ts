@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { FlatsForRentComponent } from './functionalities/flats-for-rent/flats-for-rent/flats-for-rent.component';
+import { FlatsForRentComponent } from './functionalities/flats-for-rent/flats-for-rent.component';
 
 @NgModule({
   declarations: [
