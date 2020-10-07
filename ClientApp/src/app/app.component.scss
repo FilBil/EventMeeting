@@ -1,0 +1,65 @@
+//colors
+$ice-green: #4DE8BE;
+$mint-green: #50F299;
+$green: #53DB6A;
+$lime-green: #67F250;
+$camo-green: #99E84D;
+
+//font props
+$font: "Arial Narrow", Arial, sans-serif;
+$header-size: 2em;
+$functionality-size: 1.4em;
+
+.main-page {
+  width: 100vw;
+  height: 100vh;
+
+  display: grid;
+  grid-template-rows: 1fr 5fr 1.7fr;
+
+  header {
+    background: $green;
+    display: flex;
+    justify-content: center;
+
+    h1 {
+      font-size: $header-size;
+      font-family: $font;
+    }
+  }
+
+  nav {
+    /*display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;*/
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 80%;
+
+    .functionality-option {
+      width: 50%;
+      height: 50%;
+      border-radius: 50%;
+      background: $camo-green;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    a {
+      text-decoration: none;
+      font-size: $functionality-size;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+
+  footer {
+    background: $green;
+  }
+}

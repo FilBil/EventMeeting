@@ -1,8 +1,12 @@
-<section>
+<section class="main-page">
   <header>
     <h1>{{title}}</h1>
   </header>
-  <article>
-    <p>{{describe}}</p>
-  </article>
+  <nav>
+    <div class="functionality-option"
+         *ngFor="let functionality of functionalities">
+      <a>{{functionality}}</a>
+    </div>
+  </nav>
+  <footer>{{footer}}</footer>
 </section>
