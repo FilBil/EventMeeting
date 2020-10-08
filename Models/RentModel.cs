@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
+using Microsoft.AspNetCore.Identity;
 namespace EventMeeting.Models
 {
     public class RentModel
@@ -14,6 +11,6 @@ namespace EventMeeting.Models
         public int RoomNumber { get; set; }
         public Enum Features { get; set; }
         public bool IsEmpty { get; set; }
-        
+
     }
 }
