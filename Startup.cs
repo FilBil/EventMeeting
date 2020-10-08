@@ -27,9 +27,11 @@ namespace EventMeeting
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<RentBraContext>(options =>
-            options.UseSqlServer(Configuration.GetConnectionString("RentBraContext")));
+           options.UseSqlServer(Configuration.GetConnectionString("RentBraContext"),
+            x => x.MigrationsAssembly("EventMeeting")));
             services.AddControllersWithViews();
             services.AddRazorPages();
+
             // In production, the Angular files will be served from this directory
             services.AddSpaStaticFiles(configuration =>
             {

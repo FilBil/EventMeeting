@@ -7,9 +7,8 @@ namespace EventMeeting.Models
         public int Id { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
-        public decimal Price { get; set; }
+        public double Price { get; set; }
         public int RoomNumber { get; set; }
-        public Enum Features { get; set; }
         public bool IsEmpty { get; set; }
 
     }

@@ -18,8 +18,15 @@
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.8" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.8" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.8">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="3.1.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational.Design" Version="1.1.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.8" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer.Design" Version="1.1.6" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.8">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -29,8 +36,12 @@
 
   <ItemGroup>
     <!-- Don't publish the SPA source files, but do show them in the project files list -->
+    <Compile Remove="Pages\RentBra\RentController\**" />
     <Content Remove="$(SpaRoot)**" />
+    <Content Remove="Pages\RentBra\RentController\**" />
+    <EmbeddedResource Remove="Pages\RentBra\RentController\**" />
     <None Remove="$(SpaRoot)**" />
+    <None Remove="Pages\RentBra\RentController\**" />
     <None Include="$(SpaRoot)**" Exclude="$(SpaRoot)node_modules\**" />
   </ItemGroup>
 
@@ -39,10 +50,6 @@
       <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </Content>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Pages\RentBra\RentController\" />
   </ItemGroup>
 
   <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">
