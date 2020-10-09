@@ -1,0 +1,54 @@
+/*
+    FLEX MIXIN PROJECT
+*/
+
+// all params have default value: null to make them optional
+@mixin flex ($grow-or-shrink: null,
+             $grow-or-shrink-value:null,
+             $content-position: null) {
+  // @include flex; only generate flex display value
+  display: flex;
+
+  // Grow and shrink properties
+  @if ($grow-or-shrink && $grow-or-shrink-value) {
+      @include grow-or-shrink($grow-or-shrink, $grow-or-shrink-value);
+  }
+
+  // Positioning the content
+  @if $content-position {
+      @include content-position($content-position)
+  }
+}
+
+/*                           *\
+ -----GROW-OR-SHRINK-MIXIN----
+\*                           */
+@mixin grow-or-shrink($grow-or-shrink, $value) {
+    @if $grow-or-shrink {
+        flex-grow: $value;
+    } @else $grow-or-shrink {
+        flex-shrink: $value;
+    }
+  }
+
+
+/*                                *\
+ -----CONTENT-POSITIONING-MIXIN----
+\*                                */
+  @mixin content-position($content-position) {
+    @if ($content-position = 'center') {
+        justify-content: center;
+        align-items: center;
+    }
+    @else if ($content-position = 'left') {
+        justify-content: flex-start;
+        align-items: center;
+    }
+    @else if ($content-position = 'right') {
+        justify-content: flex-end;
+        align-items: center;
+    }
+    @else {
+        @warn 'Empty values!';
+    }
+  }
