@@ -1,14 +1,4 @@
-//colors
-$ice-green: #4DE8BE;
-$mint-green: #50F299;
-$green: #53DB6A;
-$lime-green: #67F250;
-$camo-green: #99E84D;
-
-//font props
-$font: "Arial Narrow", Arial, sans-serif;
-$header-size: 2em;
-$functionality-size: 1.4em;
+@import "../styles.scss";
 
 .main-page {
   width: 100vw;
@@ -18,7 +8,7 @@ $functionality-size: 1.4em;
   grid-template-rows: 1fr 5fr 1.7fr;
 
   header {
-    background: $green;
+    background: $mint-green;
     display: flex;
     justify-content: center;
 
@@ -43,7 +33,7 @@ $functionality-size: 1.4em;
       width: 50%;
       height: 50%;
       border-radius: 50%;
-      background: $camo-green;
+      background: $dark-green;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -60,6 +50,6 @@ $functionality-size: 1.4em;
   }
 
   footer {
-    background: $green;
+    background: $dead-green;
   }
 }
