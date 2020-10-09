@@ -1,0 +1,13 @@
+/*
+    MIXINS!
+*/
+
+
+// Float clean helper
+// @author Nicolas Gallagher
+@mixin clearfix {
+  &::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
