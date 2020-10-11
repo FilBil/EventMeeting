@@ -1,4 +1,4 @@
-@import "../styles.scss";
+@import "variables.scss";
 
 .main-page {
   width: 100vw;
@@ -8,7 +8,7 @@
   grid-template-rows: 1fr 5fr 1.7fr;
 
   header {
-    background: $mint-green;
+    background: $dark-green;
     display: flex;
     justify-content: center;
 
@@ -33,7 +33,7 @@
       width: 50%;
       height: 50%;
       border-radius: 50%;
-      background: $dark-green;
+      background: $mint-green;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -50,6 +50,6 @@
   }
 
   footer {
-    background: $dead-green;
+    background: $dark-green;
   }
 }
